@@ -6,12 +6,9 @@
     "develop": "webpack --watch"
   },
   "dependencies": {
-    "@basiclines/leo": "*",
-    "@webcomponents/custom-elements": "^1.0.8",
+    "@basiclines/leo": "0.1.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-plugin-transform-custom-element-classes": "^0.1.0",
-    "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-plugin-webpack-alias": "^2.1.2",
     "babel-preset-env": "^1.6.1",
     "webpack": "^3.8.1"
