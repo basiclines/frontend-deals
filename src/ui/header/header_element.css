@@ -1,0 +1,13 @@
+fd-header { display: block; padding: 16px 0 32px; }
+fd-header .logo {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: url("/res/gphx/logo.svg") no-repeat center;
+    background-size: 100%;
+    font: 0/0 a;
+    margin: 0 0 8px;
+}
+
+fd-header h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 8px; }
+fd-header p { font-size: 18px; line-height: 1em; color: var(--Concrete); }

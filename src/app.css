@@ -1,4 +1,12 @@
 @import url("/res/css/bulletproof.css");
 @import url("/res/css/fonts.css");
+@import url("/res/css/vars.colors.css");
+@import url("/ui/header/header_element.css");
+
+body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
+h1, h2, h3, h4 { font-family: "IBM Plex Mono", Sans-serif }
+
+fd-app { display: block }
+
 
 
