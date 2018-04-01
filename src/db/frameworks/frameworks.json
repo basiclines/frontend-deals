@@ -1,43 +1,50 @@
 {
   "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2, 3, 4] }
+    { "date": "2018/04/02", "items": [0, 1, 5, 2, 3, 4] }
   ],
   "images": "/db/frameworks/logos/",
   "items": [
     {
-      "id": "0",
+      "id": 0,
       "title": "React",
       "url": "https://reactjs.org/",
       "meta": "By Facebook",
       "color": "#E6F9FF"
     },
     {
-      "id": "1",
+      "id": 1,
       "title": "Vue",
       "url": "https://vuejs.org/",
       "meta": "By Evan You",
       "color": "#CCFFEB"
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Angular",
       "url": "https://angular.io/",
       "meta": "By Google",
       "color": "#FFCCD7"
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Meteor",
       "url": "https://www.meteor.com",
       "meta": "By Meteor Development",
       "color": "#FFCCCC"
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "Ember",
       "url": "https://www.emberjs.com/",
       "meta": "By Tilde",
       "color": "#FFD6CC"
+    },
+    {
+      "id": 5,
+      "title": "Polymer",
+      "url": "https://www.polymer-project.org/",
+      "meta": "By Google",
+      "color": "#CCE6FF"
     }
   ]
 }

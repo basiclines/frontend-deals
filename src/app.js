@@ -9,6 +9,7 @@ class App extends LEOElement {
 			<fd-code-editors title="Code Editors" class="fd-block"></fd-code-editors>
 			<fd-frameworks title="Frameworks" class="fd-block"></fd-frameworks>
 			<fd-tools title="Tools" class="fd-block"></fd-tools>
+			<fd-online-training title="Online training" class="fd-block"></fd-online-training>
 		`
 	}
 }

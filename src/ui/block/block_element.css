@@ -1,7 +1,7 @@
 /* FD Block */
 .fd-block { display: block; text-align: left; width: 972px; margin: 0 auto 64px; }
 .fd-block h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 24px; }
-.fd-block ul { white-space: nowrap; overflow-x: auto; padding-bottom: 24px; }
+.fd-block ul { font-size: 0; white-space: nowrap; overflow-x: auto; padding-bottom: 24px; }
     .fd-block li { display: inline-block; vert-align: top; margin-right: 24px; }
         .fd-block li a {
             display: block;

@@ -1,0 +1,38 @@
+{
+  "featured": [
+    { "date": "2018/04/02", "items": [0, 1, 2, 3, 4] }
+  ],
+  "images": "",
+  "items": [
+    {
+      "id": 0,
+      "title": "ES6 For Everyone!",
+      "meta": "A premium training course to strengthen your core JavaScript skills.",
+      "url": "https://es6.io/"
+    },
+    {
+      "id": 1,
+      "title": "#Javascript 30",
+      "meta": "30 Day Vanilla JS Coding Challenge.",
+      "url": "https://javascript30.com/"
+    },
+    {
+      "id": 2,
+      "title": "React For Beginners",
+      "meta": "Learn React.js in just a couple of afternoons.",
+      "url": "https://reactforbeginners.com/"
+    },
+    {
+      "id": 3,
+      "title": "Frontend Masters",
+      "meta": "In-Depth, Modern Front-End Engineering Courses.",
+      "url": "https://frontendmasters.com/"
+    },
+    {
+      "id": 4,
+      "title": "Pluralsight Javascript",
+      "meta": "JavaScript tutorials for both the new programmer and the advanced web developer.",
+      "url": "https://www.pluralsight.com/paths/javascript"
+    }
+  ]
+}
