@@ -30,8 +30,8 @@ class BooksElement extends LEOElement {
 					<figure style="background-color: ${item.color}">
 						<img src="${image}" alt="${item.title}">
 					</figure>
-					<p>${item.title}</p>
-					<p><em>${item.author}</em></p>	
+					<h1>${item.title}</h1>
+					<p>${item.author}</p>	
 				</a>	
 			</li>
 		`

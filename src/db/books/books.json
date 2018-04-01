@@ -13,14 +13,14 @@
     },
     {
       "id": "1",
-      "title": "Professional JavaScript for Web Developers",
+      "title": "JavaScript for Web Developers",
       "url": "https://www.amazon.com/Professional-JavaScript-Developers-Wrox-Guides/dp/1118026691/",
       "author": "Nicholas C. Zakas",
       "color": "#FFCCD7"
     },
     {
       "id": "2",
-      "title": "You Don't Know Js (6 Book Series)",
+      "title": "You Don't Know JS: Up & Going",
       "url": "https://www.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6",
       "author": "Kyle Simpson",
       "color": "#FFF9CC"
