@@ -1,5 +1,5 @@
 import {LEOObject, LEOElement} from 'leo'
-import 'src/components/registry'
+import 'src/ui/registry'
 
 class App extends LEOElement {
 	render() {
