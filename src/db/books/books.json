@@ -1,0 +1,29 @@
+{
+  "featured": [
+    { "date": "2018/04/02", "items": [0, 1, 2] }
+  ],
+  "images": "/db/books/covers/",
+  "items": [
+    {
+      "id": "0",
+      "title": "JavaScript: The Good Parts",
+      "url": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
+      "author": "Douglas Crockford",
+      "color": "#CCFEFF"
+    },
+    {
+      "id": "1",
+      "title": "Professional JavaScript for Web Developers",
+      "url": "https://www.amazon.com/Professional-JavaScript-Developers-Wrox-Guides/dp/1118026691/",
+      "author": "Nicholas C. Zakas",
+      "color": "#FFCCD7"
+    },
+    {
+      "id": "2",
+      "title": "You Don't Know Js (6 Book Series)",
+      "url": "https://www.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6",
+      "author": "Kyle Simpson",
+      "color": "#FFF9CC"
+    }
+  ]
+}
