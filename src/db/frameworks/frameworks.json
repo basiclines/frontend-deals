@@ -8,35 +8,35 @@
       "id": "0",
       "title": "React",
       "url": "https://reactjs.org/",
-      "author": "Facebook",
+      "meta": "By Facebook",
       "color": "#E6F9FF"
     },
     {
       "id": "1",
       "title": "Vue",
       "url": "https://vuejs.org/",
-      "author": "Evan You",
+      "meta": "By Evan You",
       "color": "#CCFFEB"
     },
     {
       "id": "2",
       "title": "Angular",
       "url": "https://angular.io/",
-      "author": "Google",
+      "meta": "By Google",
       "color": "#FFCCD7"
     },
     {
       "id": "3",
       "title": "Meteor",
       "url": "https://www.meteor.com",
-      "author": "Meteor Development Group",
+      "meta": "By Meteor Development",
       "color": "#FFCCCC"
     },
     {
       "id": "4",
       "title": "Ember",
       "url": "https://www.emberjs.com/",
-      "author": "Tilde",
+      "meta": "By Tilde",
       "color": "#FFD6CC"
     }
   ]

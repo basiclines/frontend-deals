@@ -8,35 +8,35 @@
       "id": "0",
       "title": "WebStorm",
       "url": "https://www.jetbrains.com/webstorm/",
-      "author": "JetBrains",
+      "meta": "By JetBrains",
       "color": "#CCFCFF"
     },
     {
       "id": "1",
       "title": "Visual Studio Code",
       "url": "https://code.visualstudio.com/",
-      "author": "Microsoft",
+      "meta": "By Microsoft",
       "color": "#CCE6FF"
     },
     {
       "id": "2",
       "title": "Sublime Text 3",
       "url": "https://www.sublimetext.com/",
-      "author": "Jon Skinner",
+      "meta": "By Jon Skinner",
       "color": "#FFEECC"
     },
     {
       "id": "3",
       "title": "Atom",
       "url": "https://atom.io/",
-      "author": "GitHub",
+      "meta": "By GitHub",
       "color": "#FFEBCC"
     },
     {
       "id": "4",
       "title": "Brackets",
       "url": "http://brackets.io/",
-      "author": "Adobe",
+      "meta": "By Adobe",
       "color": "#CCF1FF"
     }
   ]

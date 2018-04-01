@@ -34,7 +34,7 @@ class BlockElement extends LEOElement {
 						<img src="${image}" alt="${item.title}">
 					</figure>
 					<h1>${item.title}</h1>
-					<p>${item.author}</p>	
+					<p>${item.meta}</p>	
 				</a>	
 			</li>
 		`

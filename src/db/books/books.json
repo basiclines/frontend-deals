@@ -8,21 +8,21 @@
       "id": "0",
       "title": "JavaScript: The Good Parts",
       "url": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
-      "author": "Douglas Crockford",
+      "meta": "By Douglas Crockford",
       "color": "#CCFEFF"
     },
     {
       "id": "1",
       "title": "JavaScript for Web Developers",
       "url": "https://www.amazon.com/Professional-JavaScript-Developers-Wrox-Guides/dp/1118026691/",
-      "author": "Nicholas C. Zakas",
+      "meta": "By Nicholas C. Zakas",
       "color": "#FFCCD7"
     },
     {
       "id": "2",
       "title": "You Don't Know JS: Up & Going",
       "url": "https://www.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6",
-      "author": "Kyle Simpson",
+      "meta": "By Kyle Simpson",
       "color": "#FFF9CC"
     }
   ]
