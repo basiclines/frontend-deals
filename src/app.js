@@ -1,4 +1,4 @@
-import {LEOObject, LEOElement} from 'leo'
+import {LEOElement} from 'leo'
 import 'src/ui/registry'
 
 class App extends LEOElement {

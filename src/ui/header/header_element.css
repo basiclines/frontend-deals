@@ -9,5 +9,5 @@ fd-header .logo {
     margin: 0 0 8px;
 }
 
-fd-header h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 8px; }
+fd-header h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 16px; }
 fd-header p { font-size: 18px; line-height: 1em; color: var(--Concrete); }
