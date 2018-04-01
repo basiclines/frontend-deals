@@ -4,7 +4,7 @@ import 'src/components/registry'
 class App extends LEOElement {
 	render() {
 		this.innerHTML = `
-			<h1>app</h1>
+			<fd-header></fd-header>
 			<fd-books></fd-books>
 		`
 	}
