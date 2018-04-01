@@ -1,12 +1,12 @@
 import {LEOObject, LEOElement} from 'leo'
+import 'src/components/registry'
 
-class Person extends LEOObject {
-	constructor() {
-		super()
-		console.log('constructor')
+class App extends LEOElement {
+	render() {
+		this.innerHTML = `
+			<h1>app</h1>
+		`
 	}
 }
 
-let ismael = new Person({name: 'ismael'})
-
-console.log('hello', ismael)
+customElements.define('fd-app', App)
