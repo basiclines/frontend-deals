@@ -2,8 +2,8 @@
   "name": "frontenddeals",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack",
-    "develop": "webpack --watch"
+    "build": "gulp js ; gulp css",
+    "watch": "gulp watch"
   },
   "dependencies": {
     "@basiclines/leo": "0.1.1",
@@ -11,7 +11,11 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-webpack-alias": "^2.1.2",
     "babel-preset-env": "^1.6.1",
-    "webpack": "^3.8.1"
+    "gulp": "^3.9.1",
+    "gulp-myth": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "webpack": "^3.8.1",
+    "webpack-stream": "^4.0.3"
   },
   "author": "",
   "license": "ISC",
