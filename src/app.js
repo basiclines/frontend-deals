@@ -5,6 +5,7 @@ class App extends LEOElement {
 	render() {
 		this.innerHTML = `
 			<h1>app</h1>
+			<fd-books></fd-books>
 		`
 	}
 }
