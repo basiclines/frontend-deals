@@ -25,5 +25,5 @@
     padding: 16px;
 }
 .fd-block li figure img { max-width: 100%; max-height: 100% }
-.fd-block li h1 { font-size: 18px; line-height: 24px; color: var(--DeepBlue); margin-bottom: 8px; }
-.fd-block li p { font-size: 14px; line-height: 1em; color: var(--Concrete); }
+.fd-block li h1 { font-size: 18px; line-height: 24px; color: var(--DeepBlue); margin-bottom: 4px; }
+.fd-block li p { font-size: 14px; line-height: 18px; color: var(--Concrete); }
