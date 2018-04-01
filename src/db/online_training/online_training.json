@@ -8,31 +8,36 @@
       "id": 0,
       "title": "ES6 For Everyone!",
       "meta": "A premium training course to strengthen your core JavaScript skills.",
-      "url": "https://es6.io/"
+      "url": "https://es6.io/",
+      "preview": "https://es6.io/images/es6-facebook-share.png"
     },
     {
       "id": 1,
       "title": "#Javascript 30",
       "meta": "30 Day Vanilla JS Coding Challenge.",
-      "url": "https://javascript30.com/"
+      "url": "https://javascript30.com/",
+      "preview": "https://javascript30.com/images/JS3-social-share.png"
     },
     {
       "id": 2,
       "title": "React For Beginners",
       "meta": "Learn React.js in just a couple of afternoons.",
-      "url": "https://reactforbeginners.com/"
+      "url": "https://reactforbeginners.com/",
+      "preview": "https://reactforbeginners.com/images/facebook-share.png"
     },
     {
       "id": 3,
       "title": "Frontend Masters",
       "meta": "In-Depth, Modern Front-End Engineering Courses.",
-      "url": "https://frontendmasters.com/"
+      "url": "https://frontendmasters.com/",
+      "preview": ""
     },
     {
       "id": 4,
       "title": "Pluralsight Javascript",
       "meta": "JavaScript tutorials for both the new programmer and the advanced web developer.",
-      "url": "https://www.pluralsight.com/paths/javascript"
+      "url": "https://www.pluralsight.com/paths/javascript",
+      "preview": ""
     }
   ]
 }
