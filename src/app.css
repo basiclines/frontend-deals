@@ -4,42 +4,13 @@
 @import url("/res/css/vars.colors.css");
 
 /* Elements */
+@import url("/ui/block/block_element.css");
 @import url("/ui/header/header_element.css");
 
 /* Main */
 body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
 h1, h2, h3, h4 { font-family: "IBM Plex Mono", Sans-serif }
 fd-app { display: block }
-
-/* FD Block */
-.fd-block { display: block; text-align: left; width: 840px; margin: 0 auto 64px; }
-.fd-block h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 24px; }
-.fd-block ul { white-space: nowrap; overflow-x: auto; }
-    .fd-block li { display: inline-block; vert-align: top; margin-right: 24px; }
-        .fd-block li a {
-            display: block;
-            width: 192px;
-            height: 355px;
-            padding: 16px;
-            box-sizing: border-box;
-            overflow: hidden;
-            background: #fff;
-            border-radius: 3px;
-            white-space: normal;
-        }
-        .fd-block li a:hover { text-decoration: none; }
-        .fd-block li figure {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 192px;
-            margin: -16px -16px 16px;
-            padding: 16px;
-        }
-            .fd-block li figure img { max-width: 100%; max-height: 100% }
-        .fd-block li h1 { font-size: 18px; line-height: 24px; color: var(--DeepBlue); margin-bottom: 8px; }
-        .fd-block li p { font-size: 14px; line-height: 1em; color: var(--Concrete); }
-
 
 
 
