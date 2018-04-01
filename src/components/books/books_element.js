@@ -38,10 +38,12 @@ class BooksElement extends LEOElement {
 	}
 
 	render() {
-		this.innerHTML = `
-			<h1>Books</h1>
-			<ul>${!this.data.isEmpty || this.generateItems()}</ul>
-		`
+		if (!this.data.isEmpty ) {
+			this.innerHTML = `
+				<h1>Books</h1>
+				<ul>${this.generateItems()}</ul>
+			`
+		}
 	}
 
 	mount() {
