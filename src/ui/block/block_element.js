@@ -3,6 +3,7 @@ import {LEOElement} from 'leo'
 class BlockElement extends LEOElement {
 
 	get mediaSource() { return '' }
+	get mediaPictureExtension() { return 'jpg' }
 
 	fetchData() {
 		fetch(this.mediaSource)
@@ -25,7 +26,7 @@ class BlockElement extends LEOElement {
 	}
 
 	generateItem(item) {
-		let image = this.data.media.images+item.id+'.jpg'
+		let image = this.data.media.images+item.id+'.'+this.mediaPictureExtension
 		return `
 			<li>
 				<a href="${item.url}" target="_blank">

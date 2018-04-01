@@ -30,14 +30,14 @@
       "title": "Atom",
       "url": "https://atom.io/",
       "author": "GitHub",
-      "color": "#FFEECC"
+      "color": "#FFEBCC"
     },
     {
       "id": "4",
       "title": "Brackets",
       "url": "http://brackets.io/",
       "author": "Adobe",
-      "color": "#FFEECC"
+      "color": "#CCF1FF"
     }
   ]
 }
