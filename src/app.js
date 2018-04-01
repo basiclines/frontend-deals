@@ -6,6 +6,7 @@ class App extends LEOElement {
 		this.innerHTML = `
 			<fd-header></fd-header>
 			<fd-books title="Books" class="fd-block"></fd-books>
+			<fd-code-editors title="Code Editors" class="fd-block"></fd-code-editors>
 		`
 	}
 }

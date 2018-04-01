@@ -6,7 +6,7 @@
 .fd-block li a {
     display: block;
     width: 192px;
-    height: 355px;
+    height: 294px;
     padding: 16px;
     box-sizing: border-box;
     overflow: hidden;
@@ -20,6 +20,7 @@
     justify-content: center;
     align-items: center;
     height: 192px;
+    box-sizing: border-box;
     margin: -16px -16px 16px;
     padding: 16px;
 }
