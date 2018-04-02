@@ -7,8 +7,8 @@ class BlockElement extends LEOElement {
 
 	fetchData() {
 		fetch(this.mediaSource)
-			.then(response => response.json())
-			.then(media => { this.data.media = media })
+		.then(response => response.json())
+		.then(media => { this.data.media = media })
 	}
 
 	getFeaturedMedia() {
@@ -41,7 +41,7 @@ class BlockElement extends LEOElement {
 	}
 
 	render() {
-		if (!this.data.isEmpty ) {
+		if (!this.data.isEmpty) {
 			this.innerHTML = `
 				<h1>${this.attrs.title}</h1>
 				<ul>${this.generateItems()}</ul>
