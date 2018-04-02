@@ -1,6 +1,6 @@
 {
   "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2, 3] }
+    { "date": "2018/04/02", "items": [0, 1, 4, 2, 3] }
   ],
   "images": "/db/tools/logos/",
   "items": [
@@ -31,6 +31,14 @@
       "meta": "Error tracking",
       "url": "https://rollbar.com/",
       "color": "#E6F9FF"
+    },
+
+    {
+      "id": "4",
+      "title": "BrowserStack",
+      "meta": "Browser testing",
+      "url": "https://www.browserstack.com/",
+      "color": "#FFE0CC"
     }
   ]
 }
