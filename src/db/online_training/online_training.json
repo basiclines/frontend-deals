@@ -30,14 +30,14 @@
       "title": "Frontend Masters",
       "meta": "In-Depth, Modern Front-End Engineering Courses.",
       "url": "https://frontendmasters.com/",
-      "preview": ""
+      "preview": "https://frontendmasters.com/static-assets/home/FEM-OPENGraph.jpg"
     },
     {
       "id": 4,
       "title": "Pluralsight Javascript",
       "meta": "JavaScript tutorials for both the new programmer and the advanced web developer.",
       "url": "https://www.pluralsight.com/paths/javascript",
-      "preview": ""
+      "preview": "https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png"
     }
   ]
 }
