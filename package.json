@@ -15,6 +15,7 @@
     "gulp-myth": "^1.1.0",
     "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
+    "npm": "^5.8.0",
     "webpack": "^3.8.1",
     "webpack-stream": "^4.0.3"
   },
