@@ -9,6 +9,7 @@ import BuildSystemsElement from "src/ui/build_systems/build_systems_element"
 import ConferencesElement from "src/ui/conferences/conferences_element"
 import ArticlesElement from "src/ui/articles/articles_element"
 import LibrariesElement from "src/ui/libraries/libraries_element"
+import TabsElement from "src/ui/tabs/tabs_element"
 
 
 customElements.define('fd-header', HeaderElement)
@@ -22,3 +23,4 @@ customElements.define('fd-build-systems', BuildSystemsElement)
 customElements.define('fd-conferences', ConferencesElement)
 customElements.define('fd-articles', ArticlesElement)
 customElements.define('fd-libraries', LibrariesElement)
+customElements.define('fd-tabs', TabsElement)

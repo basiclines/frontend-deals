@@ -1,0 +1,17 @@
+fd-tabs { display: block; width: 524px; margin: 48px auto; }
+    fd-tabs ul {
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 3px;
+        overflow: hidden;
+    }
+        fd-tabs li { flex-grow: 1; }
+        fd-tabs a {
+            display: block;
+            font: 16px/1em IBM Plex Mono, Sans-serif;
+            color: #fff;
+            padding: 12px 0 10px;
+            border-bottom: solid 2px transparent;
+        }
+        fd-tabs a:hover { text-decoration: none; background-color: rgba(255, 255, 255, 0.1); }
+        fd-tabs .active a { border-bottom-color: var(--FireRed); background: var(--FireRed15); }

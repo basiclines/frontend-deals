@@ -5,6 +5,7 @@
 
 /* Elements */
 @import url("/ui/header/header_element.css");
+@import url("/ui/tabs/tabs_element.css");
 @import url("/ui/block/block_element.css");
 @import url("/ui/books/books_element.css");
 @import url("/ui/online_training/online_training_element.css");
@@ -16,7 +17,6 @@
 /* Main */
 body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
 h1, h2, h3, h4 { font-family: "IBM Plex Mono", Sans-serif }
+[data-hidden='true'] { display: none!important; }
+
 fd-app { display: block }
-
-
-
