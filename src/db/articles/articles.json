@@ -1,0 +1,32 @@
+{
+  "featured": [
+    { "date": "2018/04/02", "items": [0, 1, 2, 3] }
+  ],
+  "images": "",
+  "items": [
+    {
+      "id": 0,
+      "title": "13 Noteworthy Points from Google’s JavaScript Style Guide",
+      "url": "https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b",
+      "preview": "https://cdn-images-1.medium.com/max/1200/1*ouYvMzYuksK-IH1BPNKD0A.jpeg"
+    },
+    {
+      "id": 1,
+      "title": "Using web workers for safe, concurrent JavaScript",
+      "url": "https://blog.logrocket.com/using-webworkers-for-safe-concurrent-javascript-3f33da4eb0b2",
+      "preview": "https://cdn-images-1.medium.com/max/1200/1*vsgQ0hOZkxQFfKqjKOWbYw.png"
+    },
+    {
+      "id": 2,
+      "title": "ES modules: A cartoon deep-dive",
+      "url": "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/",
+      "preview": "https://hacks.mozilla.org/files/2018/03/08_loader_as_puppeteer_2.png"
+    },
+    {
+      "id": 3,
+      "title": "Progressive Web Apps on iOS are here 🚀",
+      "url": "https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7",
+      "preview": "https://cdn-images-1.medium.com/max/1200/1*cTRvyVCe5TDVcBd7Pcpv8A.png"
+    }
+  ]
+}
