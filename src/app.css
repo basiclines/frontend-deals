@@ -9,6 +9,7 @@
 @import url("/ui/books/books_element.css");
 @import url("/ui/online_training/online_training_element.css");
 @import url("/ui/build_systems/build_systems_element.css");
+@import url("/ui/conferences/conferences_element.css");
 
 /* Main */
 body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
