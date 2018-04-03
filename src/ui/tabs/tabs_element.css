@@ -12,6 +12,7 @@ fd-tabs { display: block; width: 524px; margin: 48px auto; }
             color: #fff;
             padding: 12px 0 10px;
             border-bottom: solid 2px transparent;
+            transition: all 0.15s ease-out;
         }
         fd-tabs a:hover { text-decoration: none; background-color: rgba(255, 255, 255, 0.1); }
         fd-tabs .active a { border-bottom-color: var(--FireRed); background: var(--FireRed15); }

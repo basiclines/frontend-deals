@@ -16,6 +16,7 @@ class App extends LEOElement {
 			<fd-articles data-shows-on="all,grow,community" title="Articles" class="fd-block"></fd-articles>
 			<fd-libraries data-shows-on="all,grow" title="Libraries" class="fd-block"></fd-libraries>
 			<fd-tools data-shows-on="all,tools" title="Services" class="fd-block"></fd-tools>
+			<footer>Made by <a href="https://ismael.fyi" target="_blank">ismael.fyi</a></footer>
 		`
 	}
 }

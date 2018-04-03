@@ -20,3 +20,7 @@ h1, h2, h3, h4 { font-family: "IBM Plex Mono", Sans-serif }
 [data-hidden='true'] { display: none!important; }
 
 fd-app { display: block }
+
+footer { font-size: 14px; color: var(--Concrete); padding: 48px 0; }
+    footer a { color: var(--Concrete); }
+    footer a:hover { color: var(--FireRed); }
