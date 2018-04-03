@@ -1,0 +1,36 @@
+{
+  "featured": [
+    { "date": "2018/04/02", "items": [0, 1, 2, 3] }
+  ],
+  "images": "",
+  "items": [
+    {
+      "id": 0,
+      "title": "HotKeys.js",
+      "meta": "A robust Javascript library for capturing keyboard input and key combinations entered.",
+      "url": "https://github.com/jaywcjlove/hotkeys/",
+      "stars": 1214
+    },
+    {
+      "id": 1,
+      "title": "Cycled",
+      "meta": "Cycle through the items of an array.",
+      "url": "https://github.com/sindresorhus/cycled",
+      "stars": 165
+    },
+    {
+      "id": 2,
+      "title": "Github.js",
+      "meta": "A higher-level wrapper around the Github API. Intended for the browser. ",
+      "url": "https://github.com/github-tools/github",
+      "stars": 2714
+    },
+    {
+      "id": 3,
+      "title": "React Waypoint",
+      "meta": "A React component to execute a function whenever you scroll to an element.",
+      "url": "https://github.com/brigade/react-waypoint",
+      "stars": 2269
+    }
+  ]
+}

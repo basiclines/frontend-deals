@@ -14,6 +14,7 @@ class App extends LEOElement {
 			<fd-online-training title="Online training" class="fd-block"></fd-online-training>
 			<fd-conferences title="Conferences" class="fd-block"></fd-conferences>
 			<fd-articles title="Articles" class="fd-block"></fd-articles>
+			<fd-libraries title="Libraries" class="fd-block"></fd-libraries>
 		`
 	}
 }

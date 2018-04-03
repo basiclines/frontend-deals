@@ -1,0 +1,18 @@
+fd-libraries.fd-block li a { width: 408px; height: 152px; }
+    fd-libraries.fd-block li h1 {
+        font-size: 22px;
+        line-height: 28px;
+        margin: -3px 0 12px;
+        padding-right: 8px;
+        overflow: hidden;
+    }
+    fd-libraries.fd-block li p { font-size: 16px; line-height: 24px; margin-bottom: 12px; }
+    fd-libraries.fd-block .stars-counter {
+        font-size: 18px;
+        line-height: 1em;
+        color: var(--DeepBlue);
+        background: url(/res/gphx/ic_star.svg) no-repeat left center;
+        background-size: 24px auto;
+        padding: 4px 0 2px 32px;
+        float: right;
+    }
