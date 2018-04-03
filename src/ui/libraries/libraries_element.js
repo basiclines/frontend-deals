@@ -2,6 +2,7 @@ import BlockElement from 'src/ui/block/block_element'
 
 class LibrariesElement extends BlockElement {
 	get mediaSource() { return '/db/libraries/libraries.json' }
+	get mediaType() { return 'Library' }
 
 	generateItem(item) {
 		return `

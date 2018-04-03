@@ -2,6 +2,7 @@ import BlockElement from 'src/ui/block/block_element'
 
 class ConferencesElement extends BlockElement {
 	get mediaSource() { return '/db/conferences/conferences.json' }
+	get mediaType() { return 'Conference' }
 
 	generateItem(item) {
 		return `

@@ -3,6 +3,7 @@ import {LEOElement} from 'leo'
 class BlockElement extends LEOElement {
 
 	get mediaSource() { return '' }
+	get mediaType() { return '' }
 	get mediaPictureExtension() { return 'jpg' }
 
 	fetchData() {
@@ -40,11 +41,23 @@ class BlockElement extends LEOElement {
 		`
 	}
 
+	generateProposalItem() {
+		let url = `https://github.com/basiclines/frontenddeals/blob/master/src${this.mediaSource}`
+		return `
+			<li class="proposal-item">
+				<a href="${url}" target="_blank">
+					<h1>Create a Pull Request to add a ${this.mediaType}</h1>
+					<em class="fd-button">View in GitHub</em>
+				</a>
+			</li>
+		`
+	}
+
 	render() {
 		if (!this.data.isEmpty) {
 			this.innerHTML = `
 				<h1>${this.attrs.title}</h1>
-				<ul>${this.generateItems()}</ul>
+				<ul>${this.generateItems()} ${this.generateProposalItem()}</ul>
 			`
 		}
 	}

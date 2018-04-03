@@ -2,6 +2,7 @@ import BlockElement from 'src/ui/block/block_element'
 
 class OnlineTrainingElement extends BlockElement {
 	get mediaSource() { return '/db/online_training/online_training.json' }
+	get mediaType() { return 'Course' }
 
 	generateItem(item) {
 		return `

@@ -3,6 +3,7 @@ import BlockElement from 'src/ui/block/block_element'
 class DevBrowsersElement extends BlockElement {
 	get mediaSource() { return '/db/dev_browsers/dev_browsers.json' }
 	get mediaPictureExtension() { return 'png' }
+	get mediaType() { return 'Browser' }
 
 	generateItem(item) {
 		let image = this.data.media.images+item.id+'.'+this.mediaPictureExtension
