@@ -2,7 +2,7 @@
 .fd-block { display: block; text-align: left; width: 972px; margin: 0 auto 64px; }
 .fd-block h1 { font-size: 32px; line-height: 1em; color: #fff; margin-bottom: 12px; }
 .fd-block ul { font-size: 0; white-space: nowrap; overflow-x: auto; padding: 12px 0 24px; }
-    .fd-block li { display: inline-block; vert-align: top; margin-right: 24px; }
+    .fd-block li { display: inline-block; vertical-align: top; margin-right: 24px; }
         .fd-block li a {
             display: block;
             width: 192px;
@@ -28,6 +28,7 @@
         .fd-block li figure img { max-width: 100%; max-height: 100% }
         .fd-block li h1 { font-size: 18px; line-height: 24px; color: var(--DeepBlue); margin-bottom: 4px; }
         .fd-block li p { font-size: 14px; line-height: 18px; color: var(--Concrete); }
+
 
         .fd-block .proposal-item a {
             background: transparent url(/res/gphx/bg_stripes.svg) repeat left top;
