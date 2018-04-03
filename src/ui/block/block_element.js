@@ -42,7 +42,7 @@ class BlockElement extends LEOElement {
 	}
 
 	generateProposalItem() {
-		let url = `https://github.com/basiclines/frontenddeals/blob/master/src${this.mediaSource}`
+		let url = `https://github.com/basiclines/frontend-deals/blob/master/src${this.mediaSource}`
 		return `
 			<li class="proposal-item">
 				<a href="${url}" target="_blank">

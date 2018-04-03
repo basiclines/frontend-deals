@@ -5,7 +5,6 @@ class App extends LEOElement {
 	render() {
 		this.innerHTML = `
 			<fd-header></fd-header>
-			<fd-tabs></fd-tabs>
 			<fd-books data-shows-on="all,learn" title="Books" class="fd-block"></fd-books>
 			<fd-code-editors data-shows-on="all,tools" title="Code Editors" class="fd-block"></fd-code-editors>
 			<fd-dev-browsers data-shows-on="all,tools" title="Browsers for development" class="fd-block"></fd-dev-browsers>

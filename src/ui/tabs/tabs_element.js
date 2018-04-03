@@ -1,6 +1,12 @@
 import {LEOElement} from 'leo'
+import SCROLL_OFFSET from 'src/ui/header/header_element'
 
 class TabsElement extends LEOElement {
+
+	goToTop() {
+		const SCROLL_OFFSET = this.attrs['scroll-offset'];
+		if (window.scrollY > SCROLL_OFFSET) window.scrollTo(0, SCROLL_OFFSET)
+	}
 
 	filterBlocks() {
 		let blocks = document.body.querySelectorAll('[data-shows-on]')
@@ -44,6 +50,7 @@ class TabsElement extends LEOElement {
 		super.bind()
 		this.data.on('change:activeTab', (tab) => {
 			this.filterBlocks()
+			this.goToTop()
 		})
 	}
 
