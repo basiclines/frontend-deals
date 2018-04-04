@@ -29,6 +29,6 @@ footer { font-size: 14px; color: var(--Concrete); padding: 48px 0; }
 
 @media (--desktop-S) {
     fd-header .inner { padding: 0 16px; }
-    .fd-block h1 { padding-left: 16px; }
-    .fd-block ul { padding-left: 16px; }
+    .fd-block > h1 { padding-left: 16px; }
+        .fd-block ul { padding-left: 16px; }
 }
