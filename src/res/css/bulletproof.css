@@ -6,8 +6,7 @@
 
 /*Base font */
 html { min-height: 100%; position: relative; overflow-x: hidden; }
-body { margin: 0; padding: 0;  text-align: center; vertical-align: middle; overflow-x: hidden; }
-
+body { margin: 0; padding: 0;  text-align: center; vertical-align: middle; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 /* Text conventions */
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: normal; }

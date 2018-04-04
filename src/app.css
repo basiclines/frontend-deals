@@ -16,7 +16,7 @@
 
 /* Main */
 body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
-h1, h2, h3, h4 { font-family: "IBM Plex Mono", Sans-serif }
+h1, h2, h3, h4 { font-family: "IBM Plex Mono", Sans-serif; font-weight: 500; }
 [data-hidden='true'] { display: none!important; }
 
 fd-app { display: block }

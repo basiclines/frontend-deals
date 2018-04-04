@@ -16,7 +16,7 @@ fd-tabs {
         fd-tabs li { flex-grow: 1; }
         fd-tabs a {
             display: block;
-            font: 16px/1em IBM Plex Mono, Sans-serif;
+            font: 700 16px/1em IBM Plex Mono, Sans-serif;
             color: #fff;
             padding: 12px 0 10px;
             border-bottom: solid 2px transparent;
