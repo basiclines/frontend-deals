@@ -24,7 +24,7 @@ class HeaderElement extends LEOElement {
 			<div data-select="inner">
 				<a class="logo" href="/">Frontend Deals Logo</a>
 				<h1>Frontend Deals</h1>
-				<p>A weekly curated list of front-end and javascript resources.</p>
+				<p>A curated list of front-end and javascript resources.</p>
 			</div>
 			<fd-tabs scroll-offset="${SCROLL_OFFSET}"></fd-tabs>
 		`
