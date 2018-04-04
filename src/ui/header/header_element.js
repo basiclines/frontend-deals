@@ -13,12 +13,10 @@ class HeaderElement extends LEOElement {
 	modulateScroll(target) {
 		let scroll = target.scrollY
 		let opacity = (scroll < SCROLL_OFFSET) ? 1 - (scroll * 1) / SCROLL_OFFSET : 0
-		let translateY = (scroll < SCROLL_OFFSET) ? `translateY(${scroll * -1}px)` : `translateY(-${SCROLL_OFFSET}px)`
 
 		this.inner.style.opacity = opacity;
-		this.tabs.style.transform = translateY;
 
-		(scroll + 1 > SCROLL_OFFSET) ? this.tabs.classList.add('stacked') : this.tabs.classList.remove('stacked')
+		(scroll + 1 > SCROLL_OFFSET) ? this.classList.add('stacked-tabs') : this.classList.remove('stacked-tabs')
 	}
 
 	render() {
@@ -34,7 +32,6 @@ class HeaderElement extends LEOElement {
 
 	mount() {
 		this.inner = this.find('[data-select=inner]')
-		this.tabs = this.find('fd-tabs')
 	}
 }
 
