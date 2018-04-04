@@ -10,7 +10,7 @@ fd-header .logo {
 }
 
 fd-header h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 16px; }
-fd-header p { font-size: 18px; line-height: 1em; color: var(--Concrete); margin-bottom: 48px; }
+fd-header p { font-size: 18px; line-height: 24px; color: var(--Concrete); margin-bottom: 48px; }
 
 
 fd-header.stacked-tabs { margin-bottom: 156px; }

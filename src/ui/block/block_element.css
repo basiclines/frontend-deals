@@ -1,7 +1,7 @@
 /* FD Block */
-.fd-block { display: block; text-align: left; width: 972px; margin: 0 auto 64px; }
+.fd-block { display: block; text-align: left; width: 972px; max-width: 100%; margin: 0 auto 64px; }
 .fd-block h1 { font-size: 32px; line-height: 1em; color: #fff; margin-bottom: 12px; }
-.fd-block ul { font-size: 0; white-space: nowrap; overflow-x: auto; padding: 12px 0 24px; }
+.fd-block ul { font-size: 0; white-space: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 12px 0 24px; }
     .fd-block li { display: inline-block; vertical-align: top; margin-right: 24px; }
         .fd-block li a {
             display: block;

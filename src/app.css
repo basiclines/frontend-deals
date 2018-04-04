@@ -2,6 +2,7 @@
 @import url("/res/css/bulletproof.css");
 @import url("/res/css/fonts.css");
 @import url("/res/css/vars.colors.css");
+@import url("/res/css/vars.breakpoints.css");
 
 /* Elements */
 @import url("/ui/header/header_element.css");
@@ -24,3 +25,10 @@ fd-app { display: block }
 footer { font-size: 14px; color: var(--Concrete); padding: 48px 0; }
     footer a { color: var(--Concrete); }
     footer a:hover { color: var(--FireRed); }
+
+
+@media (--desktop-S) {
+    fd-header .inner { padding: 0 16px; }
+    .fd-block h1 { padding-left: 16px; }
+    .fd-block ul { padding-left: 16px; }
+}

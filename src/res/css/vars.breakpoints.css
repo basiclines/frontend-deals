@@ -1,0 +1,10 @@
+@custom-media --desktop-XL screen and (max-width: 1920px);
+@custom-media --desktop-L screen and (max-width: 1440px);
+@custom-media --desktop-M screen and (max-width: 1280px);
+@custom-media --desktop-S screen and (max-width: 1080px);
+@custom-media --desktop-XS screen and (max-width: 900px);
+
+@custom-media --mobile-XL screen and (max-width: 720px);
+@custom-media --mobile-L screen and (max-width: 480px);
+@custom-media --mobile-M screen and (max-width: 360px);
+@custom-media --mobile-S screen and (max-width: 240px);

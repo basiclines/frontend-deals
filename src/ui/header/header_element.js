@@ -21,7 +21,7 @@ class HeaderElement extends LEOElement {
 
 	render() {
 		this.innerHTML = `
-			<div data-select="inner">
+			<div data-select="inner" class="inner">
 				<a class="logo" href="/">Frontend Deals Logo</a>
 				<h1>Frontend Deals</h1>
 				<p>A curated list of front-end and javascript resources.</p>
