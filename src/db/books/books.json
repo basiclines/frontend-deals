@@ -1,6 +1,6 @@
 {
   "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2] }
+    { "date": "2018/04/02", "items": [0, 1, 2, 3] }
   ],
   "images": "/db/books/covers/",
   "items": [
@@ -24,6 +24,13 @@
       "url": "https://www.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6",
       "meta": "By Kyle Simpson",
       "color": "#FFF9CC"
+    },
+    {
+      "id": "3",
+      "title": "Eloquent JavaScript",
+      "url": "https://eloquentjavascript.net",
+      "meta": "By Marijn Haverbeke",
+      "color": "#f4f4ef"
     }
   ]
 }
