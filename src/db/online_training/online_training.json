@@ -38,6 +38,13 @@
       "meta": "JavaScript tutorials for both the new programmer and the advanced web developer.",
       "url": "https://www.pluralsight.com/paths/javascript",
       "preview": "https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png"
+    },
+    {
+      "id": 5,
+      "title": "Learn Redux",
+      "meta": "20 video tutorials to help you learn how to build JavaScript apps with React.js and Redux.",
+      "url": "https://learnredux.com/",
+      "preview": "https://learnredux.com/images/RDX/share.png"
     }
   ]
 }
