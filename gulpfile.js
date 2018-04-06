@@ -9,6 +9,7 @@ var prompt = require('gulp-prompt');
 var rsync  = require('gulp-rsync');
 let cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify-es').default;
+var jsonedit= require("gulp-json-editor");
 
 
 gulp.task('js', function() {
@@ -47,6 +48,18 @@ gulp.task('minify-js', function() {
 		.pipe(gulp.dest('src/dist'));
 });
 
+gulp.task('create-week', function() {
+	return gulp.src("./src/db/**/*.json")
+		.pipe(jsonedit(function(json) {
+			let newWeek = Object.assign({}, json.featured[0])
+				newWeek.date = argv.week
+			json.featured.unshift(newWeek)
+			return json;
+		}))
+		.pipe(gulp.dest(function (file) {
+			return file.base;
+		}));
+});
 
 gulp.task('deploy', function() {
 	var rsyncPaths = ['src'];
