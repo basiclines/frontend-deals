@@ -10,6 +10,7 @@ import ConferencesElement from "src/ui/content_blocks/conferences/conferences_el
 import ArticlesElement from "src/ui/content_blocks/articles/articles_element"
 import LibrariesElement from "src/ui/content_blocks/libraries/libraries_element"
 import TabsElement from "src/ui/tabs/tabs_element"
+import ArchiveSelector from "src/ui/archive_selector/archive_selector_element"
 
 
 customElements.define('fd-header', HeaderElement)
@@ -24,3 +25,4 @@ customElements.define('fd-conferences', ConferencesElement)
 customElements.define('fd-articles', ArticlesElement)
 customElements.define('fd-libraries', LibrariesElement)
 customElements.define('fd-tabs', TabsElement)
+customElements.define('fd-archive-selector', ArchiveSelector)

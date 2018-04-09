@@ -13,6 +13,7 @@
 @import url("/ui/content_blocks/conferences/conferences_element.css");
 @import url("/ui/content_blocks/articles/articles_element.css");
 @import url("/ui/content_blocks/libraries/libraries_element.css");
+@import url("/ui/archive_selector/archive_selector_element.css");
 
 /* Main */
 body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
