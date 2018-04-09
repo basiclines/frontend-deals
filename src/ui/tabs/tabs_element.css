@@ -1,10 +1,4 @@
-fd-tabs {
-    display: block;
-    padding: 16px;
-    background-color: var(--DeepBlue);
-    transition: box-shadow 0.25s ease-out;
-}
-
+fd-tabs { display: inline-block }
     fd-tabs ul {
         display: flex;
         width: 524px;

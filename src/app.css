@@ -30,6 +30,15 @@ footer { font-size: 14px; color: var(--Concrete); padding: 48px 0; }
 
 @media (--desktop-S) {
     fd-header .inner { padding: 0 16px; }
+    fd-archive-selector {
+        position: relative;
+        left: 0;
+        top: 0;
+        display: block;
+        margin-bottom: 16px;
+    }
+    fd-archive-selector section { justify-content: center; }
+
     .fd-block > h1 { padding-left: 16px; }
         .fd-block ul { padding-left: 16px; }
 }

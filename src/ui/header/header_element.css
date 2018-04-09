@@ -14,6 +14,13 @@ fd-header .inner p { font-size: 18px; line-height: 24px; color: var(--Concrete);
 
 
 fd-header.stacked-tabs { margin-bottom: 156px; }
+
+    fd-header nav {
+        display: block;
+        padding: 16px;
+        background-color: var(--DeepBlue);
+        transition: box-shadow 0.25s ease-out;
+    }
     fd-header.stacked-tabs nav {
         position: fixed;
         top: 0px;
