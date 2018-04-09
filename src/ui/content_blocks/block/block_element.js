@@ -15,12 +15,7 @@ class BlockElement extends LEOElement {
 
 	getFeaturedDate() {
 		let date = this.data.selectedDate
-		console.log('date', date)
-		let featuredByDate = this.data.media.featured.find(item => {
-			console.log(item.date)
-			return item.date == date
-		})
-
+		let featuredByDate = this.data.media.featured.find(item => item.date == date)
 		return (featuredByDate) ? featuredByDate : this.data.media.featured[0]
 	}
 
@@ -69,6 +64,7 @@ class BlockElement extends LEOElement {
 	bind() {
 		super.bind()
 		Router.on('change:url', url => {
+			console.log('url', url)
 			this.data.selectedDate = url.replace('/archive/', '')
 		})
 	}

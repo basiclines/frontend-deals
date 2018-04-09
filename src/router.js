@@ -21,10 +21,7 @@ class Router extends LEOObject {
 
 	bind() {
 		window.addEventListener('popstate', (e) => {
-			let url = document.location.path
-			this.trigger('change', url);
-			this.trigger('change:url', url);
-			this.url = url
+			this.url = document.location.pathname
 		})
 	}
 
