@@ -1,43 +1,41 @@
 {
-  "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2, 3, 4] }
-  ],
+  "featured": [{
+    "date": "2018/04/09",
+    "items": [0, 1, 2, 3, 4]
+  }, {
+    "date": "2018/04/02",
+    "items": [0, 1, 2, 3, 4]
+  }],
   "images": "/db/code_editors/logos/",
-  "items": [
-    {
-      "id": "0",
-      "title": "WebStorm",
-      "url": "https://www.jetbrains.com/webstorm/",
-      "meta": "By JetBrains",
-      "color": "#CCFCFF"
-    },
-    {
-      "id": "1",
-      "title": "Visual Studio Code",
-      "url": "https://code.visualstudio.com/",
-      "meta": "By Microsoft",
-      "color": "#CCE6FF"
-    },
-    {
-      "id": "2",
-      "title": "Sublime Text 3",
-      "url": "https://www.sublimetext.com/",
-      "meta": "By Jon Skinner",
-      "color": "#FFEECC"
-    },
-    {
-      "id": "3",
-      "title": "Atom",
-      "url": "https://atom.io/",
-      "meta": "By GitHub",
-      "color": "#FFEBCC"
-    },
-    {
-      "id": "4",
-      "title": "Brackets",
-      "url": "http://brackets.io/",
-      "meta": "By Adobe",
-      "color": "#CCF1FF"
-    }
-  ]
+  "items": [{
+    "id": "0",
+    "title": "WebStorm",
+    "url": "https://www.jetbrains.com/webstorm/",
+    "meta": "By JetBrains",
+    "color": "#CCFCFF"
+  }, {
+    "id": "1",
+    "title": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/",
+    "meta": "By Microsoft",
+    "color": "#CCE6FF"
+  }, {
+    "id": "2",
+    "title": "Sublime Text 3",
+    "url": "https://www.sublimetext.com/",
+    "meta": "By Jon Skinner",
+    "color": "#FFEECC"
+  }, {
+    "id": "3",
+    "title": "Atom",
+    "url": "https://atom.io/",
+    "meta": "By GitHub",
+    "color": "#FFEBCC"
+  }, {
+    "id": "4",
+    "title": "Brackets",
+    "url": "http://brackets.io/",
+    "meta": "By Adobe",
+    "color": "#CCF1FF"
+  }]
 }

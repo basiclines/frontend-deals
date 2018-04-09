@@ -1,29 +1,29 @@
 {
-  "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2] }
-  ],
+  "featured": [{
+    "date": "2018/04/09",
+    "items": [0, 1, 2]
+  }, {
+    "date": "2018/04/02",
+    "items": [0, 1, 2]
+  }],
   "images": "",
-  "items": [
-    {
-      "id": 0,
-      "title": "Front-Trends",
-      "meta": "May 24-25, 2018 in Warsaw, Poland",
-      "url": "https://2018.front-trends.com/",
-      "preview": "https://2018.front-trends.com/static/img/ico-512.png"
-    },
-    {
-      "id": 1,
-      "title": "CSSConf EU",
-      "meta": "June 1st, 2018 Berlin, Germany",
-      "url": "https://2018.cssconf.eu/",
-      "preview": "https://2018.cssconf.eu/images/open-graph-image.jpg"
-    },
-    {
-      "id": 2,
-      "title": "JSConf EU",
-      "meta": "June 2nd & 3rd, 2018 Berlin, Germany",
-      "url": "https://2018.jsconf.eu/",
-      "preview": "https://2018.jsconf.eu/android-chrome-512x512.png"
-    }
-  ]
+  "items": [{
+    "id": 0,
+    "title": "Front-Trends",
+    "meta": "May 24-25, 2018 in Warsaw, Poland",
+    "url": "https://2018.front-trends.com/",
+    "preview": "https://2018.front-trends.com/static/img/ico-512.png"
+  }, {
+    "id": 1,
+    "title": "CSSConf EU",
+    "meta": "June 1st, 2018 Berlin, Germany",
+    "url": "https://2018.cssconf.eu/",
+    "preview": "https://2018.cssconf.eu/images/open-graph-image.jpg"
+  }, {
+    "id": 2,
+    "title": "JSConf EU",
+    "meta": "June 2nd & 3rd, 2018 Berlin, Germany",
+    "url": "https://2018.jsconf.eu/",
+    "preview": "https://2018.jsconf.eu/android-chrome-512x512.png"
+  }]
 }

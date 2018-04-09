@@ -1,38 +1,36 @@
 {
-  "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2, 3, 4] }
-  ],
+  "featured": [{
+    "date": "2018/04/09",
+    "items": [0, 1, 2, 3, 4]
+  }, {
+    "date": "2018/04/02",
+    "items": [0, 1, 2, 3, 4]
+  }],
   "images": "/db/dev_browsers/logos/",
-  "items": [
-    {
-      "id": 0,
-      "title": "Firefox Developer Edition",
-      "url": "https://www.mozilla.org/es-ES/firefox/developer/",
-      "color": "#CCEBFF"
-    },
-    {
-      "id": 1,
-      "title": "Chrome Canary",
-      "url": "https://www.google.es/chrome/browser/canary.html",
-      "color": "#FFF4CC"
-    },
-    {
-      "id": 2,
-      "title": "Safari Technology Preview",
-      "url": "https://developer.apple.com/safari/technology-preview/",
-      "color": "#E6CCFF"
-    },
-    {
-      "id": 3,
-      "title": "Microsoft Edge",
-      "url": "https://www.microsoft.com/en-us/windows/microsoft-edge",
-      "color": "#CCE8FF"
-    },
-    {
-      "id": 4,
-      "title": "Opera Developer",
-      "url": "https://www.opera.com/es/computer/beta",
-      "color": "#F2F2F2"
-    }
-  ]
+  "items": [{
+    "id": 0,
+    "title": "Firefox Developer Edition",
+    "url": "https://www.mozilla.org/es-ES/firefox/developer/",
+    "color": "#CCEBFF"
+  }, {
+    "id": 1,
+    "title": "Chrome Canary",
+    "url": "https://www.google.es/chrome/browser/canary.html",
+    "color": "#FFF4CC"
+  }, {
+    "id": 2,
+    "title": "Safari Technology Preview",
+    "url": "https://developer.apple.com/safari/technology-preview/",
+    "color": "#E6CCFF"
+  }, {
+    "id": 3,
+    "title": "Microsoft Edge",
+    "url": "https://www.microsoft.com/en-us/windows/microsoft-edge",
+    "color": "#CCE8FF"
+  }, {
+    "id": 4,
+    "title": "Opera Developer",
+    "url": "https://www.opera.com/es/computer/beta",
+    "color": "#F2F2F2"
+  }]
 }

@@ -1,44 +1,41 @@
 {
-  "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2, 3, 4, 5] }
-  ],
+  "featured": [{
+    "date": "2018/04/09",
+    "items": [0, 1, 2, 3, 4, 5]
+  }, {
+    "date": "2018/04/02",
+    "items": [0, 1, 2, 3, 4, 5]
+  }],
   "images": "/db/build_systems/logos/",
-  "items": [
-    {
-      "id": 0,
-      "title": "Webpack",
-      "url": "https://webpack.js.org/",
-      "color": "#F2FAFF"
-    },
-    {
-      "id": 1,
-      "title": "Gulp",
-      "url": "https://gulpjs.com/",
-      "color": "#FFCECC"
-    },
-    {
-      "id": 2,
-      "title": "Grunt",
-      "url": "https://gruntjs.com/",
-      "color": "#FFEFCC"
-    },
-    {
-      "id": 3,
-      "title": "Rollup",
-      "url": "http://rollupjs.org/",
-      "color": "#FFCFCC"
-    },
-    {
-      "id": 4,
-      "title": "Broccoli",
-      "url": "http://broccolijs.com/",
-      "color": "#EAFFCC"
-    },
-    {
-      "id": 5,
-      "title": "Parcel",
-      "url": "https://parceljs.org/",
-      "color": "#FFE7CC"
-    }
-  ]
+  "items": [{
+    "id": 0,
+    "title": "Webpack",
+    "url": "https://webpack.js.org/",
+    "color": "#F2FAFF"
+  }, {
+    "id": 1,
+    "title": "Gulp",
+    "url": "https://gulpjs.com/",
+    "color": "#FFCECC"
+  }, {
+    "id": 2,
+    "title": "Grunt",
+    "url": "https://gruntjs.com/",
+    "color": "#FFEFCC"
+  }, {
+    "id": 3,
+    "title": "Rollup",
+    "url": "http://rollupjs.org/",
+    "color": "#FFCFCC"
+  }, {
+    "id": 4,
+    "title": "Broccoli",
+    "url": "http://broccolijs.com/",
+    "color": "#EAFFCC"
+  }, {
+    "id": 5,
+    "title": "Parcel",
+    "url": "https://parceljs.org/",
+    "color": "#FFE7CC"
+  }]
 }
