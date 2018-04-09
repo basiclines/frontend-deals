@@ -1,3 +1,49 @@
 fd-archive-selector {
-
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    background: rgba(255, 255, 255, 0.05);
+    background-size: 12px auto;
+    border-radius: 3px;
+    padding: 12px 12px 12px 16px;
+    cursor: pointer;
 }
+
+    fd-archive-selector section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+        fd-archive-selector p {
+            font: 700 16px/1em "IBM Plex Mono", Sans-serif;
+            color: #fff;
+            margin-right: 4px;
+        }
+        fd-archive-selector p,
+        fd-archive-selector i { pointer-events: none }
+
+    fd-archive-selector ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        right: 0;
+        max-height: 160px;
+        overflow: auto;
+        border-radius: 0 0 3px 3px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+        fd-archive-selector li a {
+            display: block;
+            padding: 12px;
+            color: #fff;
+            font: 16px/1em "IBM Plex Mono", Sans-serif;
+            color: rgba(255, 255, 255, 0.8)
+        }
+        fd-archive-selector li a:hover { text-decoration: none; background-color: rgba(255, 255, 255, 0.1); color: #fff; }
+
+
+    /* Toggle */
+    fd-archive-selector[open] { border-radius: 3px 3px 0 0; }
+    fd-archive-selector[open] ul { display: block; }

@@ -8,6 +8,14 @@ class ArchiveSelector extends LEOElement {
 		.then(data => { this.data.history = data; })
 	}
 
+	onClick(e) {
+		if (e.target.getAttribute('data-trigger') == 'toggle') this.toggle()
+	}
+
+	toggle() {
+		this.attrs.open = (this.attrs.has('open')) ? null : true
+	}
+
 	generateItems() {
 		return this.data.history.reduce((buffer, item) => {
 			return buffer += this.generateItem(item)
@@ -22,8 +30,13 @@ class ArchiveSelector extends LEOElement {
 
 	render() {
 		this.innerHTML = `
-			<p>Archive</p>
-			<ul data-render="history">${ (!this.data.isEmpty) ? this.generateItems() : '' }</ul>
+			<section data-trigger="toggle">
+				<p>Archive</p>
+				<i data-icon="show">show dropdown</i>
+			</section>
+			<ul data-render="history">
+				${ (!this.data.isEmpty) ? this.generateItems() : '' }
+			</ul>
 		`
 	}
 
