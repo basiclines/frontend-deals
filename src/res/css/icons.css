@@ -1,0 +1,11 @@
+[data-icon] {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent no-repeat center;
+    background-size: 24px;
+    font: 0/0 a;
+}
+
+[data-icon='show'] { background-image: url(/res/gphx/ic_show.svg) }

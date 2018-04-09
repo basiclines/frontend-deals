@@ -49,16 +49,28 @@ gulp.task('minify-js', function() {
 });
 
 gulp.task('create-week', function() {
-	return gulp.src("./src/db/**/*.json")
-		.pipe(jsonedit(function(json) {
-			let newWeek = Object.assign({}, json.featured[0])
-				newWeek.date = argv.week
-			json.featured.unshift(newWeek)
-			return json;
-		}))
-		.pipe(gulp.dest(function (file) {
-			return file.base;
-		}));
+	// Create week entry in each DB
+	gulp.src(["./src/db/**/*.json", "!./src/db/archive.json"])
+	.pipe(jsonedit(function(json) {
+		let newWeek = Object.assign({}, json.featured[0])
+			newWeek.date = argv.week
+		json.featured.unshift(newWeek)
+		return json;
+	}))
+	.pipe(gulp.dest(function (file) {
+		return file.base;
+	}));
+
+	// Create the same entry in the Archive DB
+	gulp.src("./src/db/archive.json")
+	.pipe(jsonedit(function(json) {
+		let newWeek = argv.week
+		json.unshift(newWeek)
+		return json;
+	}))
+	.pipe(gulp.dest(function (file) {
+		return file.base;
+	}));
 });
 
 gulp.task('deploy', function() {

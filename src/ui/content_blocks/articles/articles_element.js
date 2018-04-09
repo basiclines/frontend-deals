@@ -1,4 +1,4 @@
-import BlockElement from 'src/ui/block/block_element'
+import BlockElement from 'src/ui/content_blocks/block/block_element'
 
 class ArticlesElement extends BlockElement {
 	get mediaSource() { return '/db/articles/articles.json' }

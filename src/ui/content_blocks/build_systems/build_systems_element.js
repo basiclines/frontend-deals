@@ -1,9 +1,9 @@
-import BlockElement from 'src/ui/block/block_element'
+import BlockElement from 'src/ui/content_blocks/block/block_element'
 
-class DevBrowsersElement extends BlockElement {
-	get mediaSource() { return '/db/dev_browsers/dev_browsers.json' }
+class BuildSystemsElement extends BlockElement {
+	get mediaSource() { return '/db/build_systems/build_systems.json' }
 	get mediaPictureExtension() { return 'png' }
-	get mediaType() { return 'Browser' }
+	get mediaType() { return 'Build system' }
 
 	generateItem(item) {
 		let image = this.data.media.images+item.id+'.'+this.mediaPictureExtension
@@ -20,4 +20,4 @@ class DevBrowsersElement extends BlockElement {
 	}
 }
 
-export default DevBrowsersElement
+export default BuildSystemsElement
