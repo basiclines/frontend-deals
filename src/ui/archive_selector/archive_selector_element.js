@@ -6,7 +6,10 @@ class ArchiveSelector extends LEOElement {
 	fetchHistory() {
 		fetch('/db/archive.json')
 		.then(response => response.json())
-		.then(data => { this.data.history = data; })
+		.then(data => {
+			data.shift();
+			this.data.history = data
+		})
 	}
 
 	onClick(e) {
@@ -62,7 +65,7 @@ class ArchiveSelector extends LEOElement {
 	}
 
 	mount() {
-		this.setSelection('This Week')
+		this.setSelection('This week')
 		this.fetchHistory()
 	}
 }
