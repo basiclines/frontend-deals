@@ -1,29 +1,35 @@
 {
-  "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2] }
-  ],
+  "featured": [{
+    "date": "2018/04/09",
+    "items": [0, 1, 2, 3]
+  }, {
+    "date": "2018/04/02",
+    "items": [0, 1, 2]
+  }],
   "images": "/db/books/covers/",
-  "items": [
-    {
-      "id": "0",
-      "title": "JavaScript: The Good Parts",
-      "url": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
-      "meta": "By Douglas Crockford",
-      "color": "#CCFEFF"
-    },
-    {
-      "id": "1",
-      "title": "JavaScript for Web Developers",
-      "url": "https://www.amazon.com/Professional-JavaScript-Developers-Wrox-Guides/dp/1118026691/",
-      "meta": "By Nicholas C. Zakas",
-      "color": "#FFCCD7"
-    },
-    {
-      "id": "2",
-      "title": "You Don't Know JS: Up & Going",
-      "url": "https://www.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6",
-      "meta": "By Kyle Simpson",
-      "color": "#FFF9CC"
-    }
-  ]
+  "items": [{
+    "id": "0",
+    "title": "JavaScript: The Good Parts",
+    "url": "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
+    "meta": "By Douglas Crockford",
+    "color": "#CCFEFF"
+  }, {
+    "id": "1",
+    "title": "JavaScript for Web Developers",
+    "url": "https://www.amazon.com/Professional-JavaScript-Developers-Wrox-Guides/dp/1118026691/",
+    "meta": "By Nicholas C. Zakas",
+    "color": "#FFCCD7"
+  }, {
+    "id": "2",
+    "title": "You Don't Know JS: Up & Going",
+    "url": "https://www.amazon.com/You-Dont-Know-Js-Book/dp/B01AY9P0P6",
+    "meta": "By Kyle Simpson",
+    "color": "#FFF9CC"
+  }, {
+    "id": "3",
+    "title": "Eloquent JavaScript",
+    "url": "https://eloquentjavascript.net",
+    "meta": "By Marijn Haverbeke",
+    "color": "#FFF6CC"
+  }]
 }
