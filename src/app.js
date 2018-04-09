@@ -1,5 +1,6 @@
 import {LEOElement} from 'leo'
 import 'src/ui/registry'
+import Router from 'src/router'
 
 class App extends LEOElement {
 	render() {

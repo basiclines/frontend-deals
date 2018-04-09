@@ -1,4 +1,5 @@
 import {LEOElement} from 'leo'
+import Router from 'src/router'
 
 class BlockElement extends LEOElement {
 
@@ -12,8 +13,20 @@ class BlockElement extends LEOElement {
 		.then(media => { this.data.media = media })
 	}
 
+	getFeaturedDate() {
+		let date = this.data.selectedDate
+		console.log('date', date)
+		let featuredByDate = this.data.media.featured.find(item => {
+			console.log(item.date)
+			return item.date == date
+		})
+
+		return (featuredByDate) ? featuredByDate : this.data.media.featured[0]
+	}
+
 	getFeaturedMedia() {
-		return this.data.media.featured[0].items.reduce((buffer, featured) => {
+		let featuredDate = this.getFeaturedDate()
+		return featuredDate.items.reduce((buffer, featured) => {
 			buffer.push(this.data.media.items[featured])
 			return buffer
 		}, [])
@@ -51,6 +64,13 @@ class BlockElement extends LEOElement {
 				</a>
 			</li>
 		`
+	}
+
+	bind() {
+		super.bind()
+		Router.on('change:url', url => {
+			this.data.selectedDate = url.replace('/archive/', '')
+		})
 	}
 
 	render() {
