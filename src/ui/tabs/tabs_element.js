@@ -31,7 +31,7 @@ class TabsElement extends LEOElement {
 	}
 
 	getActiveClass(tab) {
-		if (this.data.activeTab == tab) return 'active'
+		return (this.data.activeTab == tab) ? 'active' : ''
 	}
 
 	render() {
