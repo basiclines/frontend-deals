@@ -1,32 +1,51 @@
 {
-  "featured": [
-    { "date": "2018/04/02", "items": [0, 1, 2, 3] }
-  ],
+  "featured": [{
+    "date": "2018/04/09",
+    "items": [5, 6, 7, 4]
+  }, {
+    "date": "2018/04/02",
+    "items": [0, 1, 2, 3]
+  }],
   "images": "",
-  "items": [
-    {
-      "id": 0,
-      "title": "13 Noteworthy Points from Google’s JavaScript Style Guide",
-      "url": "https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b",
-      "preview": "https://cdn-images-1.medium.com/max/1200/1*ouYvMzYuksK-IH1BPNKD0A.jpeg"
-    },
-    {
-      "id": 1,
-      "title": "Using web workers for safe, concurrent JavaScript",
-      "url": "https://blog.logrocket.com/using-webworkers-for-safe-concurrent-javascript-3f33da4eb0b2",
-      "preview": "https://cdn-images-1.medium.com/max/1200/1*vsgQ0hOZkxQFfKqjKOWbYw.png"
-    },
-    {
-      "id": 2,
-      "title": "ES modules: A cartoon deep-dive",
-      "url": "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/",
-      "preview": "https://hacks.mozilla.org/files/2018/03/08_loader_as_puppeteer_2.png"
-    },
-    {
-      "id": 3,
-      "title": "Progressive Web Apps on iOS are here 🚀",
-      "url": "https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7",
-      "preview": "https://cdn-images-1.medium.com/max/1200/1*cTRvyVCe5TDVcBd7Pcpv8A.png"
-    }
-  ]
+  "items": [{
+    "id": 0,
+    "title": "13 Noteworthy Points from Google’s JavaScript Style Guide",
+    "url": "https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b",
+    "preview": "https://cdn-images-1.medium.com/max/1200/1*ouYvMzYuksK-IH1BPNKD0A.jpeg"
+  }, {
+    "id": 1,
+    "title": "Using web workers for safe, concurrent JavaScript",
+    "url": "https://blog.logrocket.com/using-webworkers-for-safe-concurrent-javascript-3f33da4eb0b2",
+    "preview": "https://cdn-images-1.medium.com/max/1200/1*vsgQ0hOZkxQFfKqjKOWbYw.png"
+  }, {
+    "id": 2,
+    "title": "ES modules: A cartoon deep-dive",
+    "url": "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/",
+    "preview": "https://hacks.mozilla.org/files/2018/03/08_loader_as_puppeteer_2.png"
+  }, {
+    "id": 3,
+    "title": "Progressive Web Apps on iOS are here 🚀",
+    "url": "https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7",
+    "preview": "https://cdn-images-1.medium.com/max/1200/1*cTRvyVCe5TDVcBd7Pcpv8A.png"
+  }, {
+    "id": 4,
+    "title": "The Comprehensive Guide to JavaScript Design Patterns",
+    "url": "https://www.toptal.com/javascript/comprehensive-guide-javascript-design-patterns",
+    "preview": "https://uploads.toptal.io/blog/post_image/120764/0329_JsPatterns_Luke-Cover-14ba14a2f6099482fa9189f8764dd5ad.png"
+  }, {
+    "id": 5,
+    "title": "Understanding JavaScript Proxies by Examining on-change Library",
+    "url": "https://codeburst.io/understanding-javascript-proxies-by-examining-on-change-library-f252eddf76c2",
+    "preview": "https://cdn-images-1.medium.com/max/1200/1*CeZlbYvpCxYJ9prikN7UBQ.jpeg"
+  }, {
+    "id": 6,
+    "title": "ES6 Collections: Using Map, Set, WeakMap, WeakSet",
+    "url": "https://www.sitepoint.com/es6-collections-map-set-weakmap-weakset/",
+    "preview": "https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/07/1469241671Screenshot-2016-07-23-12.40.44.png"
+  }, {
+    "id": 7,
+    "title": "Here are examples of everything new in ECMAScript 2016, 2017, and 2018",
+    "url": "https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e",
+    "preview": "https://cdn-images-1.medium.com/max/1200/1*Z-9unq6Am3vekNOa5fD1xg.png"
+  }]
 }
