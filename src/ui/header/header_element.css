@@ -9,16 +9,17 @@ fd-header .logo {
     margin: 0 0 8px;
 }
 
-fd-header h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 16px; }
-fd-header p { font-size: 18px; line-height: 24px; color: var(--Concrete); margin-bottom: 48px; }
+fd-header .inner h1 { font-size: 40px; line-height: 1em; color: #fff; margin-bottom: 16px; }
+fd-header .inner p { font-size: 18px; line-height: 24px; color: var(--Concrete); margin-bottom: 48px; }
 
 
 fd-header.stacked-tabs { margin-bottom: 156px; }
-    fd-header.stacked-tabs fd-tabs {
+    fd-header.stacked-tabs nav {
         position: fixed;
         top: 0px;
         left: 0;
         right: 0;
         z-index: 5;
         box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.15);
-}
+    }
+        fd-header.stacked-tabs fd-archive-selector { top: 12px; position: absolute; }

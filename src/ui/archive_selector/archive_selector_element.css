@@ -1,4 +1,4 @@
-fd-archive-selector { position: absolute; left: 32px; top: 32px; }
+fd-archive-selector { position: fixed; left: 32px; top: 32px; }
 
     fd-archive-selector section {
         display: flex;
@@ -6,7 +6,7 @@ fd-archive-selector { position: absolute; left: 32px; top: 32px; }
         align-items: center;
         justify-content: flex-start;
         padding: 12px 12px 12px 16px;
-        background: rgba(255, 255, 255, 0.05);
+        background: #162540;
         background-size: 12px auto;
         border-radius: 3px;
         cursor: pointer;
@@ -28,7 +28,7 @@ fd-archive-selector { position: absolute; left: 32px; top: 32px; }
         max-height: 160px;
         overflow: auto;
         border-radius: 0 0 3px 3px;
-        background-color: rgba(255, 255, 255, 0.05);
+        background-color: #162540;
     }
         fd-archive-selector li a {
             display: block;

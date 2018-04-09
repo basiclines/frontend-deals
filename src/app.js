@@ -4,7 +4,6 @@ import 'src/ui/registry'
 class App extends LEOElement {
 	render() {
 		this.innerHTML = `
-			<fd-archive-selector></fd-archive-selector>
 			<fd-header></fd-header>
 			<fd-books data-shows-on="all,learn" title="Books" class="fd-block"></fd-books>
 			<fd-code-editors data-shows-on="all,tools" title="Code Editors" class="fd-block"></fd-code-editors>
