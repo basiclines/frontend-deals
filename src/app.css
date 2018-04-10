@@ -33,8 +33,12 @@ footer { font-size: 14px; color: var(--Concrete); padding: 48px 0; }
         display: block;
         margin-bottom: 16px;
     }
-    fd-archive-selector section { justify-content: center; }
+        fd-archive-selector section { justify-content: center; }
 
     .fd-block > h1 { padding-left: 16px; }
         .fd-block ul { padding-left: 16px; }
+}
+
+@media (--mobile-L) {
+    .fd-block.link-preview li { width: 80vw; }
 }

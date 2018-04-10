@@ -62,9 +62,9 @@
         /* Media variant */
         .fd-block.link-preview li { width: 408px; }
         .fd-block.link-preview li figure {
+            height: 0;
+            padding: 0 0 60%;
             margin: -16px -16px 16px;
-            height: 192px;
-            padding: 0;
             background: var(--Pale) no-repeat center;
             background-size: cover;
         }
