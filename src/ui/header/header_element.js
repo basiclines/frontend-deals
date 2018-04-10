@@ -1,13 +1,16 @@
 import {LEOElement} from 'leo'
+import isMobile from 'src/res/js/ismobile'
 
 const SCROLL_OFFSET = 244
 class HeaderElement extends LEOElement {
 
 	bind(e) {
 		super.bind()
-		window.addEventListener('scroll', () => {
-			requestAnimationFrame(() => { this.modulateScroll(window) })
-		})
+		if (!isMobile()) {
+			window.addEventListener('scroll', () => {
+				requestAnimationFrame(() => { this.modulateScroll(window) })
+			})
+		}
 	}
 
 	modulateScroll(target) {
