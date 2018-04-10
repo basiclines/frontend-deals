@@ -1,8 +1,1 @@
-fd-online-training.fd-block li a { width: 408px; height: 288px; }
-    fd-online-training.fd-block li figure {
-        margin: -16px -16px 16px;
-        height: 192px;
-        padding: 0;
-        background: var(--Pale) no-repeat center;
-        background-size: cover;
-    }
+fd-online-training.fd-block li a { height: 288px; }
