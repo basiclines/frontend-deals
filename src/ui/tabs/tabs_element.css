@@ -1,8 +1,6 @@
-fd-tabs { display: inline-block }
+fd-tabs { display: inline-block;  width: 524px; max-width: 100%; }
     fd-tabs ul {
         display: flex;
-        width: 524px;
-        max-width: 100%;
         margin: 0 auto;
         background-color: rgba(255, 255, 255, 0.05);
         border-radius: 3px;
