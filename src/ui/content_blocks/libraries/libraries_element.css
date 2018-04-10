@@ -1,4 +1,4 @@
-fd-libraries.fd-block li a { width: 408px; height: 164px; }
+fd-libraries.fd-block li { width: 408px; }
     fd-libraries.fd-block li h1 {
         font-size: 22px;
         line-height: 28px;
@@ -10,6 +10,7 @@ fd-libraries.fd-block li a { width: 408px; height: 164px; }
     fd-libraries.fd-block .stars-counter {
         font-size: 18px;
         line-height: 1em;
+        font-weight: 700;
         color: var(--DeepBlue);
         background: url(/res/gphx/ic_star.svg) no-repeat left center;
         background-size: 24px auto;

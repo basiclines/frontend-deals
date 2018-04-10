@@ -1,12 +1,19 @@
 /* FD Block */
 .fd-block { display: block; text-align: left; width: 972px; max-width: 100%; margin: 0 auto 64px; }
 .fd-block h1 { font-size: 32px; line-height: 1em; color: #fff; margin-bottom: 12px; }
-.fd-block ul { font-size: 0; white-space: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 12px 0 24px; }
-    .fd-block li { display: inline-block; vertical-align: top; margin-right: 24px; }
+.fd-block ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 12px 0 24px;
+}
+    .fd-block li { margin-right: 24px; width: 192px; flex: 0 0 auto; }
         .fd-block li a {
             display: block;
-            width: 192px;
-            height: 294px;
+            height: 100%;
             padding: 16px;
             box-sizing: border-box;
             overflow: hidden;
@@ -53,7 +60,7 @@
             }
 
         /* Media variant */
-        .fd-block.link-preview li a { width: 408px; }
+        .fd-block.link-preview li { width: 408px; }
         .fd-block.link-preview li figure {
             margin: -16px -16px 16px;
             height: 192px;

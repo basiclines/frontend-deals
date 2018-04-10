@@ -7,14 +7,10 @@
 /* Elements */
 @import url("/ui/header/header_element.css");
 @import url("/ui/tabs/tabs_element.css");
+@import url("/ui/archive_selector/archive_selector_element.css");
 @import url("/ui/content_blocks/block/block_element.css");
 @import url("/ui/content_blocks/books/books_element.css");
-@import url("/ui/content_blocks/online_training/online_training_element.css");
-@import url("/ui/content_blocks/build_systems/build_systems_element.css");
-@import url("/ui/content_blocks/conferences/conferences_element.css");
-@import url("/ui/content_blocks/articles/articles_element.css");
 @import url("/ui/content_blocks/libraries/libraries_element.css");
-@import url("/ui/archive_selector/archive_selector_element.css");
 
 /* Main */
 body { font-family: "Roboto", Sans-serif; color: var(--Concrete); background: var(--DeepBlue); }
