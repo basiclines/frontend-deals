@@ -1,5 +1,8 @@
 {
   "featured": [{
+    "date": "2018/04/16",
+    "items": [8, 9, 11, 10, 7]
+  }, {
     "date": "2018/04/09",
     "items": [6, 4, 5]
   }, {
@@ -49,5 +52,35 @@
     "meta": "Super easy magic-move transitions for React apps",
     "url": "https://github.com/berzniz/react-overdrive",
     "stars": 2546
+  }, {
+    "id": 7,
+    "title": "Cytoscape",
+    "meta": "Graph theory (a.k.a. network) library for analysis and visualisation",
+    "url": "https://github.com/cytoscape/cytoscape.js",
+    "stars": 4171
+  }, {
+    "id": 8,
+    "title": "lazysizes",
+    "meta": "High performance and SEO friendly lazy loader for images.",
+    "url": "https://github.com/aFarkas/lazysizes",
+    "stars": 8246
+  }, {
+    "id": 9,
+    "title": "Regexparam",
+    "meta": "A tiny (299B) utility that converts route patterns into RegExp.",
+    "url": "https://github.com/lukeed/regexparam",
+    "stars": 143
+  }, {
+    "id": 10,
+    "title": "Probot",
+    "meta": "A framework for building GitHub Apps to automate and improve your workflow.",
+    "url": "https://github.com/probot/probot",
+    "stars": 2412
+  }, {
+    "id": 11,
+    "title": "Animated",
+    "meta": "Declarative Animations Library for React and React Native.",
+    "url": "https://github.com/animatedjs/animated",
+    "stars": 1234
   }]
 }
