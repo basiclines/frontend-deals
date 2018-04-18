@@ -1,5 +1,8 @@
 {
   "featured": [{
+    "date": "2018/04/16",
+    "items": [0, 1, 2, 4, 3]
+  }, {
     "date": "2018/04/09",
     "items": [0, 1, 2, 3]
   }, {
@@ -31,5 +34,11 @@
     "url": "https://eloquentjavascript.net",
     "meta": "By Marijn Haverbeke",
     "color": "#FFF6CC"
+  }, {
+    "id": "4",
+    "title": "CSS Secrets",
+    "url": "http://shop.oreilly.com/product/0636920031123.do",
+    "meta": "By Michailia Verou",
+    "color": "#FFCCE6"
   }]
 }
