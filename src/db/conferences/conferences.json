@@ -1,5 +1,8 @@
 {
   "featured": [{
+    "date": "2018/04/16",
+    "items": [3, 4, 0, 1, 2]
+  }, {
     "date": "2018/04/09",
     "items": [0, 1, 2]
   }, {
@@ -25,5 +28,17 @@
     "meta": "June 2nd & 3rd, 2018 Berlin, Germany",
     "url": "https://2018.jsconf.eu/",
     "preview": "https://2018.jsconf.eu/android-chrome-512x512.png"
+  }, {
+    "id": 3,
+    "title": "CSSConf Australia",
+    "meta": "Youtube playlist from 2018 conference",
+    "url": "https://www.youtube.com/watch?v=zVbLR7rI8ZU&list=PLZriQCloF6GApxBmkAcCp08VoI6mDFe2G",
+    "preview": "http://i3.ytimg.com/vi/zVbLR7rI8ZU/maxresdefault.jpg"
+  }, {
+    "id": 4,
+    "title": "JSConf Australia",
+    "meta": "Youtube playlist from 2018 conference",
+    "url": "https://www.youtube.com/playlist?list=PLZriQCloF6GDuXF8RRPd1mIl9W2QXF-sQ",
+    "preview": "http://i3.ytimg.com/vi/tXssxJgIHbs/maxresdefault.jpg"
   }]
 }
