@@ -10,6 +10,7 @@ class ArticlesElement extends BlockElement {
 				<a href="${item.url}" target="_blank">
 					<figure style="background-image: url(${item.preview})"></figure>
 					<h1>${item.title}</h1>
+					<p>${item.url}</p>
 				</a>	
 			</li>
 		`

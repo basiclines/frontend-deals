@@ -1,5 +1,8 @@
 {
   "featured": [{
+    "date": "2018/04/23",
+    "items": [12, 13, 14, 15]
+  }, {
     "date": "2018/04/16",
     "items": [8, 9, 11, 10, 7]
   }, {
@@ -12,75 +15,83 @@
   "images": "",
   "items": [{
     "id": 0,
-    "title": "HotKeys.js",
     "meta": "A robust Javascript library for capturing keyboard input and key combinations entered.",
     "url": "https://github.com/jaywcjlove/hotkeys/",
     "stars": 1214
   }, {
     "id": 1,
-    "title": "Cycled",
     "meta": "Cycle through the items of an array.",
     "url": "https://github.com/sindresorhus/cycled",
     "stars": 165
   }, {
     "id": 2,
-    "title": "Github.js",
     "meta": "A higher-level wrapper around the Github API. Intended for the browser. ",
     "url": "https://github.com/github-tools/github",
     "stars": 2714
   }, {
     "id": 3,
-    "title": "React Waypoint",
     "meta": "A React component to execute a function whenever you scroll to an element.",
     "url": "https://github.com/brigade/react-waypoint",
     "stars": 2269
   }, {
     "id": 4,
-    "title": "Mysql Json Api",
     "meta": "A Node.js-powered JSON API frontend for MySQL. ",
     "url": "https://github.com/capacitorset/mysql-json-api",
     "stars": 17
   }, {
     "id": 5,
-    "title": "Piano",
     "meta": "A piano thing for Frameworks and Architecture for the Web course at ITU ",
     "url": "https://github.com/xmacex/piano",
     "stars": 1
   }, {
     "id": 6,
-    "title": "React Overdrive",
     "meta": "Super easy magic-move transitions for React apps",
     "url": "https://github.com/berzniz/react-overdrive",
     "stars": 2546
   }, {
     "id": 7,
-    "title": "Cytoscape",
     "meta": "Graph theory (a.k.a. network) library for analysis and visualisation",
     "url": "https://github.com/cytoscape/cytoscape.js",
     "stars": 4171
   }, {
     "id": 8,
-    "title": "lazysizes",
     "meta": "High performance and SEO friendly lazy loader for images.",
     "url": "https://github.com/aFarkas/lazysizes",
     "stars": 8246
   }, {
     "id": 9,
-    "title": "Regexparam",
     "meta": "A tiny (299B) utility that converts route patterns into RegExp.",
     "url": "https://github.com/lukeed/regexparam",
     "stars": 143
   }, {
     "id": 10,
-    "title": "Probot",
     "meta": "A framework for building GitHub Apps to automate and improve your workflow.",
     "url": "https://github.com/probot/probot",
     "stars": 2412
   }, {
     "id": 11,
-    "title": "Animated",
     "meta": "Declarative Animations Library for React and React Native.",
     "url": "https://github.com/animatedjs/animated",
     "stars": 1234
+  }, {
+    "id": 12,
+    "meta": "🌈 React for interactive command-line apps ",
+    "url": "https://github.com/vadimdemedes/ink",
+    "stars": 5660
+  }, {
+    "id": 13,
+    "meta": "🎶 Library for declaratively manipulating the Web Audio API ",
+    "url": "https://github.com/benji6/virtual-audio-graph",
+    "stars": 201
+  }, {
+    "id": 14,
+    "meta": "Slugify a string ",
+    "url": "https://github.com/sindresorhus/slugify",
+    "stars": 684
+  }, {
+    "id": 15,
+    "meta": "Renders a svg circle + progress, it just works 💘",
+    "url": "https://github.com/zzarcon/react-circle",
+    "stars": 423
   }]
 }
