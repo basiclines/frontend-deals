@@ -22,7 +22,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-rsync": "0.0.8",
     "gulp-uglify-es": "^1.0.4",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "npm": "^5.10.0",
     "webpack": "^3.12.0",
     "webpack-stream": "^4.0.3"
