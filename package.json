@@ -7,12 +7,12 @@
     "live": "gulp minify-js ; gulp minify-css"
   },
   "dependencies": {
-    "@basiclines/leo": "0.2.1",
+    "@basiclines/leo": "0.6.4",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-webpack-alias": "^2.1.2",
     "babel-preset-env": "^1.7.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.10.0",
     "gulp-if": "^2.0.2",
     "gulp-json-editor": "^2.5.2",
